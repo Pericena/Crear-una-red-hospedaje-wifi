@@ -1,49 +1,29 @@
-# AntivirusStain
+# Crear-una-red-hospedaje-wifi
+Crear una red hospedaje wifi
+Seguro que m√°s de una vez a sufrido la falta de conexi√≥n WiFi y 3G en nuestro tel√©fono o tablet, mientras que nuestro ordenador conectado por cable o PLC disfruta de una velocidad envidiable. resolver√° todos nuestros problemas de conexi√≥n, permitiendo crear una red WiFi desde nuestro PC.
+Antes de comenzar, nos tendremos que asegurar de que tenemos un PC con Windows 7 o superior con buena conexi√≥n a Internet y una tarjeta o USB WiFi.
+![](https://3.bp.blogspot.com/-qioaB4HnBPI/XINRMexI92I/AAAAAAAAN90/SieHwfXy3ecrW4ynP19FKT2O0dW6vQ2ZQCLcBGAs/s1600/Screenshot_27.png)
 
-AntivirusStain roba todo lo que es documento de Adobe y las copia a una USB cuando la victima lo ejecute la aplicaci√≥n.
-![](https://2.bp.blogspot.com/-Jpa300XYoVA/W_-YJ_a9BkI/AAAAAAAACIM/S3hLHke0eqQgEpzNPkPKxuD1ilT7d5VVwCLcBGAs/s1600/Captura.PNG)
-
-- MAS INFORMACI®ÆN https://www.lpericena.tk/2017/11/antivirus-stain.html
-
-## Comenzando
-_Estas instrucciones te permitir®Æn obtener una copia del proyecto en funcionamiento en tu m®Æquina local para prop√≥sitos de desarrollo y pruebas._
-https://github.com/Pericena/Antivirus-Stain.git
-Mira **Deployment** para conocer como desplegar el proyecto.
+- MAS INFORMACI√ìN https://www.lpericena.tk/2019/03/crear-una-red-wifi-desde-nuestro.html
 
 
-### Pre-requisitos
-_Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
- - windows 7/10
- - USB 
+echo La clave de seguridad del usuario debe ser un minimo de 8 caracteres
+set/p red=Introdusca el nombre de la red wifi: 
+set/p clave=Introdusca la clave wifi: 
+echo.=================================================================== 
+netsh wlan set hostednetwork mode=allow ssid=%red% key=%clave%
+echo Nombre:%red%   clave:%clave%
+netsh wlan start hostednetwork  
 ```
 
-### Instalacion
-```
-Ejecutar el programa AntivirusStain.exe existe varias versiones para windows 7/10
-```
-_Y repite_
-```
-hasta finalizar
-```
+
 
 ## Ejecutando las pruebas
-![](https://1.bp.blogspot.com/-9Z6V_rgeHHE/XACPCjkbEYI/AAAAAAAACJA/Gg0o-w8ehcUsrWmZTDYPyxc9HLIfrQOVwCEwYBhgL/s1600/Captura8.PNG)
-visita la pagina web para que puedas ver el proceso de la instalaci®Æn y el uso
-https://www.lpericena.tk/2017/11/antivirus-stain.html
-
-### Analice las pruebas end-to-end
-
-```
-Aclarar que tambien tiene una opcion para que puedan ordenarse los archivos en una carpeta , por extecion
-```
-
-### Y las pruebas de estilo de codificaci®Æn
-
-```
-Puede demorar no mas de 2 minutos el escaneo, es un antivirus que puedes llevarlo en un usb , como dirian un software de bolsillo
-```
+![](https://3.bp.blogspot.com/-30gn0rxt3vc/Wf-_K-mP-nI/AAAAAAAAImY/MQ72PQNlYBUJ4D3ljpVGfYnjk40NPrZIQCLcBGAs/s640/Screenshot_1.png)
+visita la pagina web para que puedas ver el proceso de la instalaci¬®¬Æn y el uso
+https://www.lpericena.tk/2019/03/crear-una-red-wifi-desde-nuestro.html
 
 ## Deployment 
 #### LICENSE
@@ -62,53 +42,44 @@ Puede demorar no mas de 2 minutos el escaneo, es un antivirus que puedes llevarl
 *  Misma licencia
 *  Cambios de estado
 *  Responsabilidad
-*  Garant®™a
+*  Garant¬®¬™a
 ```
 ## Construido con* [Notepad++](https://notepad-plus-plus.org/download/) - Editor de texto (IDE)
-
-## Contribuyendo
-Por favor lee el [CONTRIBUTING.md](https://github.com/Pericena/Antivirus-Stain) para detalles de nuestro c®Ædigo de conducta, y el proceso para enviarnos pull requests.
-
-## Versionado ??
-
-Usamos [version](https://github.com/Pericena/Antivirus-Stain/blob/master/version.txt) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/Pericena/AntivirusStain/tags).
-## Autores ?? 
+## Autores
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Luishi?o Pericena Choque ** - *Desarrollo del software* - [Pericena](https://github.com/Pericena)
 
-Tambi®¶n puedes mirar la lista de todos los [contribuyentes](https://github.com/Pericena/Antivirus-Stain/contributors) qu®™enes han participado en este proyecto. 
+## Licencia 
 
-## Licencia ??
-
-Este proyecto est®Æ bajo la Licencia (Licencia publica general de GNU) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto est¬®¬Æ bajo la Licencia (Licencia publica general de GNU) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 
 ## Expresiones de Gratitud
 
 * Bueno espero que le sea de utilidad cualquier consulta pueden dirigirse a mis redes sociales:
-- ?? Blogger          https://lpericena.blogspot.com/
-- ?? Github            https://github.com/Pericena
-- ?? youtube.com  https://www.youtube.com/channel/UCELx1m-NeAdBn7mCuQ86kcw
-- ?? pinterest        https://es.pinterest.com/lushiopericena/
-- ?? twitter             https://twitter.com/LPericena
-- ?? linkedin         https://www.linkedin.com/in/lpericena/
-- ?? facebook       https://www.facebook.com/profile.php?id=100009309755063
-- ?? pagina facebook  https://www.facebook.com/lpericena
-- ?? sitio web        https://pericena.wordpress.com/
+- üåéBlogger          https://lpericena.blogspot.com/
+- üí° Github            https://github.com/Pericena
+- üé¨ youtube.com  https://www.youtube.com/channel/UCELx1m-NeAdBn7mCuQ86kcw
+- üì∏ pinterest        https://es.pinterest.com/lushiopericena/
+- üê§ twitter             https://twitter.com/LPericena
+- üë¶ linkedin         https://www.linkedin.com/in/lpericena/
+- üëç facebook       https://www.facebook.com/profile.php?id=100009309755063
+- üëç pagina facebook  https://www.facebook.com/lpericena
+- üéÆ sitio web        https://pericena.wordpress.com/
 - vimeo         https://vimeo.com/lpericena
-- ?? instagram      https://www.instagram.com/lpericena/
-- ?? remote      https://remote.com/luishinopericena-choque
-- ? google+   https://plus.google.com/u/0/114054031405340478901
-- ?? kiwi       https://kiwi.qa/LuishinoC
-- ?? App    https://apps.facebook.com/167466933725219
-- ?? Grupo    https://www.facebook.com/groups/122223121705126/?source_id=1506435219407506
-- ?? socialtools https://www.socialtools.me/index?action=demoApps&preview=1&app_id=406101
-- •ƒ teachlr    https://teachlr.com/lpericena
-- ??  wikipedia  https://es.wikipedia.org/wiki/Usuario:Luishi%C3%B1o_Pericena_Choque
-- ?? ask          https://ask.fm/Lpericena
-- ?? stackoverflow  https://stackoverflow.com/users/6506592/luishi%C3%B1o-pericena-choque
-- ?? wix https://lpericena.wixsite.com/curriculumvitae
+- üì∑ instagram      https://www.instagram.com/lpericena/
+- üéÅ remote      https://remote.com/luishinopericena-choque
+- ‚öõ google+   https://plus.google.com/u/0/114054031405340478901
+- üöÄ kiwi       https://kiwi.qa/LuishinoC
+- üìÖ App    https://apps.facebook.com/167466933725219
+- üëª Grupo    https://www.facebook.com/groups/122223121705126/?source_id=1506435219407506
+- üéß socialtools https://www.socialtools.me/index?action=demoApps&preview=1&app_id=406101
+- „ÉÑ teachlr    https://teachlr.com/lpericena
+- üìñ  wikipedia  https://es.wikipedia.org/wiki/Usuario:Luishi%C3%B1o_Pericena_Choque
+- üìß ask          https://ask.fm/Lpericena
+- üíª stackoverflow  https://stackoverflow.com/users/6506592/luishi%C3%B1o-pericena-choque
+- üì° wix https://lpericena.wixsite.com/curriculumvitae
 
 * Gracias
 
